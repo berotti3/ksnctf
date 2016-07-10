@@ -1,3 +1,3 @@
 # ksnctf
 
-http://ksnctf.sweetduet.info/をひやる
+http://ksnctf.sweetduet.info/ をやる
