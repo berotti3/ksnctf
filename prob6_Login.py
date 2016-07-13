@@ -34,7 +34,6 @@ def getUserId(length):
 
             if(isSuccess(response)):
                 result_flag = result_flag + c
-                print result_flag
                 break
     return result_flag
 
