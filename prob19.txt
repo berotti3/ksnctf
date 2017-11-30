@@ -1,0 +1,11 @@
+zipの有名な脆弱性を悪用した既知平文攻撃というものがある
+ツールもある
+brewにある
+brew install pkcrack
+
+unzip -l flag.zip
+flagのほかに画像ファイルが入ってるので、これの平文が手に入ればいけるはず
+
+使い方はいたって簡単
+pkcrack -C flag.zip -p Standard-lock-key.jpg -c Standard-lock-key.jpg -d target.zip
+
